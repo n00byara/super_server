@@ -4,7 +4,7 @@ export const router = new Router()
 
 router.get('/', function(req, res) {
     try{
-        res.send('ЭДИК ХУЙ')
+        res.send('<h1>ЭДИКХУЙ<h1>')
     } catch(error){
         console.log(error.stack)
     }
