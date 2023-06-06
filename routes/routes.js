@@ -4,13 +4,13 @@ export const router = new Router()
 
 router.get('/', function(req, res) {
     try{
-        res.send('get')
+        res.send('ЭДИК ХУЙ')
     } catch(error){
         console.log(error.stack)
     }
 })
 
-router.post('/', function(req, res) {
+router.get('/xyi', function(req, res) {
     try{
         res.send('post')
     } catch(error){
